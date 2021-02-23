@@ -5,6 +5,8 @@ const initialState = []
 
 
 const createEvent = (state, payload) => {
+  console.log('payload:', payload)
+  console.log('state:', state)
   return [...state, payload.event]
 }
 
